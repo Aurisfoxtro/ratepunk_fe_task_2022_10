@@ -1,0 +1,65 @@
+.left_panel{
+    margin-left: calc((100vw - 1120px)/2);
+    margin-top: 64px;
+    background-color: $panel_bg;
+    border: 1px solid $border;
+    padding: 64px;
+    border-radius: 16px;
+    width: 416px;
+    h1{
+        margin: 0px;
+        padding: 0px;
+        font-size: 48px;
+        line-height: 72px;
+        font-family: 'Caveat Brush';
+        text-transform: uppercase;
+        color: $text;
+    }
+    .text{
+        margin: 32px 0px 40px 0px;
+        color: $text;
+        font-family: 'Noto Sans';
+        font-size: 20px;
+        line-height: 32px;
+    }
+    .error_text{
+        margin: 0px 0px 7px 0px;
+        color: $error;
+        font-family: 'Noto Sans';
+        font-size: 12px;
+        line-height: 24px;
+    }
+    input{
+        margin: 0px 0px 16px 0px;
+        padding:0px;
+        border: 1px solid #1F343E;
+        border-radius: 8px;
+        color: $input_text;
+        font-family: 'Noto Sans';
+        font-size: 20px;
+        line-height: 20px;
+        background-color: $input_bg;
+        height: 64px;
+        width: 416px;
+    }
+    button{
+        border: 1px solid #1F343E;
+        border-radius: 8px;
+        color: $button_text;
+        text-align: center;
+        font-family: 'Noto Sans';
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 32px;
+        background-color: $button_bg;
+        height: 64px;
+        width: 416px;
+    }
+    .sub_text{
+        margin: 153px 0px 0px 0px;
+        color: $sub_text;
+        font-family: 'Noto Sans';
+        font-size: 16px;
+        line-height: 32px;
+    }
+}

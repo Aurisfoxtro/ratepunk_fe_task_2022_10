@@ -6,7 +6,7 @@ const Header = () =>{
             <div className="content">
                 <img className="logo" src={Logo} alt="Ratepunk logo" width="125px" height="32px"/>
                 <ul className="nav_bar">
-                    <li><a className="active_link" href="#">Chrome Extension</a></li>
+                    <li><a className="active_nav_bar_item" href="#">Chrome Extension</a></li>
                     <li><a href="#">Price Comparison</a></li>
                     <li><a href="#">Blog</a></li>
                 </ul>

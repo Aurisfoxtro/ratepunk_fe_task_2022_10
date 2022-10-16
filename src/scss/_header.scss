@@ -3,18 +3,33 @@
     height: 80px;
     margin: 0px;
     padding: 0px;
-    border: 1px solid #1F343E;
+    border: 1px solid $border;
     .content{
         width: 1120px;
-        margin: 0 auto;
+        margin: 0 calc((100vw - 1120px)/2);
         display: flex;
         .logo{
-            margin: 24px 475px 24px 0px;
+            margin: 24px 420px 24px 0px;
         }
         .nav_bar{
             list-style-type: none;
-
             display: flex;
+            margin:0px;
+            padding:0px;
+            li {
+                padding: 24px 32px 24px 32px;
+                a{
+                    color: $nav_bar_item;
+                    text-decoration: none;
+                    font-family: 'Noto Sans';
+                    font-size: 20px;
+                    line-height: 32px;
+                    text-align: center;   
+                }
+                .active_nav_bar_item{
+                    color: $active_nav_bar_item;
+                }
+            }
         }
     }
 }

@@ -1,21 +1,13 @@
 import Header from "../header/Header"
+import Panel from "../panel/Panel"
 
 const Main = () => {
     return(
         <>
         <Header />
-        {/* <div className="main_container">
+        <div className="main_container">
             <div className="content">
-                <div className="left_panel">
-                    <h1>Refer Friends and Get Rewards</h1>
-                    <p className="text">Refer your friends to us and earn hotel booking vouchers. We'll give you 1 coin for each friend that installs our extension. Minimum cash-out at 20 coins.</p>
-                    <p className="error_text">Error State</p>
-                    <form>
-                        <input>Enter your email address</input>
-                        <button>Get Referral Link</button>
-                    </form>
-                    <p className="sub_text">Limits on max rewards apply.</p>
-                </div>
+                <Panel />
                 <div className="right_content">
                     <div className="step">
                         <div className="step_left">
@@ -52,7 +44,7 @@ const Main = () => {
 
                 </div>
             </div>
-        </div> */}
+        </div>
         </>
     )
 
